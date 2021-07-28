@@ -1,0 +1,23 @@
+{
+    "name": "user/digital-cep",
+    "description": "Buscar CEP online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bertolucci-alan",
+            "email": "bertoluccialan23@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "User\\DigitalCep\\": "src/"
+        }
+    }
+}
